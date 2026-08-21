@@ -9,6 +9,7 @@ import QuickFix from "@/assets/quickfix.webp";
 import Personal from "@/assets/personal.webp";
 import Steam from "@/assets/steam.webp";
 import CPC from "@/assets/cpc.webp";
+import ppt from "@/assets/ppt.webp";
 import { Link } from "react-router"
 
 
@@ -72,6 +73,15 @@ export function ProjectSection({ showViewAllButton = true }: { showViewAllButton
       category: 'Frontend',
       github: 'https://github.com/MrBrightside33/CPC-Website-Redesign',
       demo: 'https://im-cpc-website.vercel.app/',
+    },
+    {
+      title: 'PPT-Summarizer',
+      description: '',
+      image: ppt,
+      tags: ['Expressjs', 'Typescript', 'Prisma ORM', 'Gemini API', 'PostgreSQL', 'Neon'],
+      category: 'Backend',
+      github: 'https://github.com/LourdenB15/pptx-summarizer-api/tree/main',
+      demo: 'https://www.pptx-summarizer.online/login',
     },
 ];
 
